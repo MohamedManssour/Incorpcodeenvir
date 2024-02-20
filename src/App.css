@@ -1,0 +1,40 @@
+.App-header {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  padding: 20px;
+}
+
+.monaco-editor .editor {
+  width: 100% !important;
+  height: 70vh !important; /* Adjust height as needed */
+  border: 1px solid #888;
+}
+.file-explorer, .chat, .user-list {
+  border: 1px solid #ccc;
+  margin: 10px;
+  padding: 10px;
+  overflow-y: auto;
+}
+
+.file-explorer {
+  width: 15%;
+  min-width: 150px;
+}
+
+.chat {
+  width: 20%;
+  min-width: 200px;
+  height: 70vh;
+}
+
+.user-list {
+  width: 10%;
+  min-width: 100px;
+}
+
+.message, .file-item, .user {
+  margin: 5px 0;
+}
+
+/* Add more styling as needed */
